@@ -72,7 +72,7 @@ h6 {
     line-height: 24px;
     color: #696871;
 }
-a {
+.button {
     display: inline-block;
     text-decoration: none;
     text-transform: capitalize;
@@ -90,7 +90,7 @@ a {
     margin-top: 30px;
 }
 
-a:hover {
+.button:hover {
     background-image: linear-gradient(90deg,#FACE61,#FCB233);
     transform: scale(1.1);
 }
@@ -100,6 +100,36 @@ a:hover {
 }
 /* Global Value End */
 
+/* Menu Start */
+.menu {
+    width: 90%;
+    transition: 1s;
+    margin: auto;
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 30px;
+}
+.menu ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 12px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #000;
+    
+}
+.menu ul li a:hover {
+    border-bottom: 1px solid #F69F60;
+    color: #FF287C;
+}
+/* Menu End */
+
 
 
 /* Top Banner Start */
@@ -107,7 +137,7 @@ a:hover {
 .main .banner {
     width:90%;
     height: 600px;
-    margin: 80px auto 0px;
+    margin: 20px auto 0px;
     padding: 50px;
     background-color: #E3E3E3;
     border-left: 7px solid;
