@@ -1,0 +1,176 @@
+/* Font Link  'Bebas Neue', cursive  font-family: 'Roboto', sans-serif;*/ 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Global Value Start */
+* {
+    margin: 0px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 85px;
+    color: #363958;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+}
+
+h6 {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #696871;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px 22px;
+    color: #fff;
+    background-image: linear-gradient(90deg,#FACE61,#363958);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 5px;
+    border-width: 0px;
+    transition: 1s;
+    margin-top: 30px;
+}
+
+a:hover {
+    background-image: linear-gradient(90deg,#FACE61,#FCB233);
+    transform: scale(1.1);
+}
+/* Global Value End */
+
+
+
+/* Top Banner Start */
+
+.main .banner {
+    width: 90%;
+    height: 500px;
+    margin: 80px auto ;
+}
+
+.main .banner .first-half-width {
+    width: 45%;
+    float: left;
+}
+
+.main .banner .first-half-width .highlighted-text {
+    color: #FACA62;
+}
+
+.main .banner .first-half-width p {
+    padding: 20px 0px;
+    width: 50%;
+}
+.main .banner .second-half-width {
+    width: 45%;
+    float: left;
+}
+.main .banner .second-half-width img {
+    width: 100%;
+}
+
+/* Top Banner End */
+
+
+
+/* About Section Start */
+
+.main .about {
+    width: 90%;
+    height: 700px;
+    margin: 300px auto 20px;
+}
+.main .about .about-half-width {
+    width: 45%;
+    float:left;
+}
+
+.main .about .about-half-width:nth-child(2) {
+    padding-left: 5%;
+}
+
+.main .about .about-half-width:nth-child(2) p {
+    width: 70%;
+    padding: 25px 0px 10px 0px;
+}
+
+.main .about .about-half-width img {
+    width: 100%;
+}
+
+.main .about .about-half-width:nth-child(2) a i {
+    padding-right: 5px;
+}
+
+/* About Section End */
+
+
+
+/* Latest Work Start */
+/* Latest Work End */
+
+
+
+/* Work Inquiry Start */
+/* Work Inquiry End */
+
+
+
+/* Contact Start */
+/* Contact End */
+
+
+
+/* Stay Connected Start */
+/* Stay Connected End */
